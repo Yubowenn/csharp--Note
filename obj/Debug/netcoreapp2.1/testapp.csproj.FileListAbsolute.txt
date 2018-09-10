@@ -1,0 +1,11 @@
+/Users/pg/Desktop/TEST/vscode/testapp/bin/Debug/netcoreapp2.1/testapp.deps.json
+/Users/pg/Desktop/TEST/vscode/testapp/bin/Debug/netcoreapp2.1/testapp.runtimeconfig.json
+/Users/pg/Desktop/TEST/vscode/testapp/bin/Debug/netcoreapp2.1/testapp.runtimeconfig.dev.json
+/Users/pg/Desktop/TEST/vscode/testapp/bin/Debug/netcoreapp2.1/testapp.dll
+/Users/pg/Desktop/TEST/vscode/testapp/bin/Debug/netcoreapp2.1/testapp.pdb
+/Users/pg/Desktop/TEST/vscode/testapp/obj/Debug/netcoreapp2.1/testapp.csprojAssemblyReference.cache
+/Users/pg/Desktop/TEST/vscode/testapp/obj/Debug/netcoreapp2.1/testapp.csproj.CoreCompileInputs.cache
+/Users/pg/Desktop/TEST/vscode/testapp/obj/Debug/netcoreapp2.1/testapp.AssemblyInfoInputs.cache
+/Users/pg/Desktop/TEST/vscode/testapp/obj/Debug/netcoreapp2.1/testapp.AssemblyInfo.cs
+/Users/pg/Desktop/TEST/vscode/testapp/obj/Debug/netcoreapp2.1/testapp.dll
+/Users/pg/Desktop/TEST/vscode/testapp/obj/Debug/netcoreapp2.1/testapp.pdb
