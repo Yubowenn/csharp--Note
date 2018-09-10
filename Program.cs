@@ -6,8 +6,8 @@ namespace testapp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
             Console.WriteLine("This is my first line.");
+            Console.WriteLine("This is my second line.");
         }
     }
 }
