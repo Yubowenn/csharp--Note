@@ -1,22 +1,24 @@
 ﻿using System;
-
-namespace testapp
+namespace example1
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            int a=5;
-            if(a<5)
+            string b;
+            int i;
+            int[] a=new int[10];
+            for(i=0;i<10;i++)
             {
-                Console.WriteLine("This is my first line.");
+                a[i]=i+1;
             }
-            else
+            for(i=0;i<10;i++)
             {
-                Console.WriteLine("This is my second line.");
-                Console.Beep(1000,1000);//发出一个蜂鸣
+                Console.Write("{0},",a[i]);
             }
-            
+            b=Console.ReadLine();
+            Console.Write("{0}",b);
         }
     }
+    
 }
