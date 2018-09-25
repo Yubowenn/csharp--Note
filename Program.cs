@@ -1,22 +1,39 @@
 ﻿using System;
-
-namespace testapp
+namespace P5_3
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-            int a=5;
-            if(a<5)
-            {
-                Console.WriteLine("This is my first line.");
-            }
-            else
-            {
-                Console.WriteLine("This is my second line.");
-                Console.Beep(1000,1000);//发出一个蜂鸣
-            }
-            
+            Son s1 = new Son();
+            System.GC.Collect();
         }
+    }
+
+    public class Grandsire
+    {
+        public Grandsire()
+        {  Console.WriteLine("调用Grandsire的构造函数");   }
+
+        ~Grandsire()
+        {  Console.WriteLine("调用Grandsire的析构函数");   }
+    }
+
+    public class Father : Grandsire
+    {
+        public Father()
+        {   Console.WriteLine("调用Father的构造函数");     }
+
+        ~Father()
+        {   Console.WriteLine("调用Father的析构函数");     }
+    }
+
+    public class Son : Father
+    {
+        public Son()
+        {   Console.WriteLine("调用Son的构造函数");        }
+
+        ~Son()
+        {   Console.WriteLine("调用Son的析构函数");        }
     }
 }
