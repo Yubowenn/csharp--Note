@@ -1,23 +1,32 @@
 ﻿using System;
-namespace example1
+namespace homework2
 {
     class Program
     {
         static void Main()
         {
-            string b;
             int i;
-            int[] a=new int[10];
-            for(i=0;i<10;i++)
+            int score;
+
+            for(i=1;;i++)
             {
-                a[i]=i+1;
+                Random rd = new Random();
+                score = rd.Next(100);
+
+                Console.Write("**第{0}次老师给小兰的表演打分为：",i);
+                Console.WriteLine(score);
+
+                if(score >= 60)
+                {
+                    Console.WriteLine("**老师对小兰的表演很满意，小兰可以回家**");break;
+                }
+                else
+                {
+                    Console.WriteLine("**老师对小兰的表演不满意，小兰重新表演一次**\n");
+                }
             }
-            for(i=0;i<10;i++)
-            {
-                Console.Write("{0},",a[i]);
-            }
-            b=Console.ReadLine();
-            Console.Write("{0}",b);
+
+            Console.ReadLine();
         }
     }
     
