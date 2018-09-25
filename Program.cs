@@ -5,6 +5,7 @@ namespace homework2
     {
         static void Main()
         {
+<<<<<<< HEAD
             int i;
             int score;
 
@@ -31,3 +32,12 @@ namespace homework2
     }
     
 }
+=======
+            string username;
+            string password;
+            Console.WriteLine("**请输入用户名：");
+            Console.ReadLine();
+        }
+    }  
+}
+>>>>>>> 46d47353b6417c3658a6a7061c3123b692b00553
