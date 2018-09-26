@@ -5,39 +5,19 @@ namespace homework2
     {
         static void Main()
         {
-<<<<<<< HEAD
-            int i;
-            int score;
-
-            for(i=1;;i++)
+            int number;
+            int i,j;
+            Console.Write("**请输入一个正整数：");
+            number = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("**以下是加法表**");
+            for(i=0,j=number;i<=number;i++,j--)
             {
-                Random rd = new Random();
-                score = rd.Next(100);
-
-                Console.Write("**第{0}次老师给小兰的表演打分为：",i);
-                Console.WriteLine(score);
-
-                if(score >= 60)
-                {
-                    Console.WriteLine("**老师对小兰的表演很满意，小兰可以回家**");break;
-                }
-                else
-                {
-                    Console.WriteLine("**老师对小兰的表演不满意，小兰重新表演一次**\n");
-                }
+                Console.WriteLine(i+"+"+j+"="+number);
             }
-
-            Console.ReadLine();
-        }
-    }
-    
-}
-=======
-            string username;
-            string password;
-            Console.WriteLine("**请输入用户名：");
             Console.ReadLine();
         }
     }  
 }
->>>>>>> 46d47353b6417c3658a6a7061c3123b692b00553
+
+
+
