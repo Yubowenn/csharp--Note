@@ -1,23 +1,18 @@
 ﻿using System;
-namespace homework2
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Text;
+
+namespace AssertionDemo
 {
-    class Program
-    {
-        static void Main()
-        {
-            int number;
-            int i,j;
-            Console.Write("**请输入一个正整数：");
-            number = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("**以下是加法表**");
-            for(i=0,j=number;i<=number;i++,j--)
-            {
-                Console.WriteLine(i+"+"+j+"="+number);
-            }
-            Console.ReadLine();
-        }
-    }  
+   class Program
+   {
+      static void Main(string[] args)
+      {
+         int myVar = 11;
+         Trace.Assert(myVar < 10, "Variable out of bounds.",
+             "Please contact vendor with the error code KCW001.");
+      }
+   }
 }
-
-
-

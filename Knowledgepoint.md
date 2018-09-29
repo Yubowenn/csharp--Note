@@ -23,3 +23,36 @@
 https://www.cnblogs.com/lixiaolu/p/8214037.html
 https://www.cnblogs.com/liuyaozhi/p/4920275.html                                          
                                                                                                 2018/9/23
+                                                                            
+### string.split方法
+* 例：
+```c#
+using System;
+
+public class SplitTest {
+    public static void Main() {
+
+        string words = "This is a list of words, with: a bit of punctuation" +
+                       "\tand a tab character.";
+
+        string [] split = words.Split(new Char [] {' ', ',', '.', ':', '\t' });
+
+        foreach (string s in split) {
+
+            if (s.Trim() != "")
+                Console.WriteLine(s);
+        }
+    }
+}
+```
+* split()是中的分隔符，在该例中，在char[]类型的一个数组里，意思是遇到以下字符会进行分隔，该例题中分隔后最后得到的数组是{"This","is","a","list","of","words","with","a","bit","of","punctuation","and","a","tab","character"}
+
+
+###关键字
+* sealed:密封的，不能继承
+```c#
+public sealed class MyClass
+{
+// Class members.
+}
+```
